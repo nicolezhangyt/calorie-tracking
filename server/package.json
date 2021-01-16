@@ -1,0 +1,17 @@
+{
+  "name": "calorie-tracking",
+  "version": "1.0.0",
+  "description": "track your daily calorie intake ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yating Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
