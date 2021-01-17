@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --black: #000;
+  --c1: #25ced1ff;
+  --c2: #ffffffff;
+  --c3: #fceadeff;
+  --c4: #a30b37ff;
+  --c5: #bd6b73ff;
+
+  --jungle-color: #00e591;
+  --grass-color: #22a971;
+  --olive-color: #1b8559;
+  --green-color: #2a9d8f;
+  --dark-green-color: #264653;
+
+  --blue-color: #0875e2;
+  --red-color: #e80e51;
+  --gold-color: #fed86b;
+  --black-color: #122835;
+  --slate-color: #162d3d;
+  --alpha-slate-color: rgba(22, 45, 61, 0.8);
+  --storm-color: #707785;
+  --ghost-color: #cecfd5;
+  --mist-color: #eaeaea;
+  --fog-color: #f5f5f6;
+  --pure-white-color: #ffffff;
+
+  --background-primary-color: var(--pure-white-color);
+  --background-secondary-color: var(--fog-color);
+  --background-reversed-color: var(--slate-color);
+  --background-overlay-color: var(--alpha-slate-color);
+
+  --divider-regular-color: var(--ghost-color);
+  --divider-reversed-color: var(--storm-color);
+  --divider-heavy-color: var(--storm-color);
+
+  --state-normal-color: var(--storm-color);
+  --state-focus-color: var(--blue-color);
+  --state-alert-color: var(--red-color);
+  --state-disabled-color: var(--ghost-color);
+
+  --action-primary-color: var(--jungle-color);
+  --action-secondary-color: var(--storm-color);
+  --action-disabled-color: var(--ghost-color);
+  --action-tertiary-color: var(--blue-color);
+  --action-reversed-color: var(--pure-white-color);
+
+  --icon-highlight-color: var(--blue-color);
+  --icon-regular-color: var(--slate-color);
+  --icon-display-color: var(--storm-color);
+  --icon-reversed-color: var(--pure-white-color);
+  --icon-success-color: var(--grass-color);
+
+  --support-success-color: var(--olive-color);
+  --support-alert-color: var(--red-color);
+  --support-information-color: var(--blue-color);
+  --support-neutral-color: var(--storm-color);
+  --support-premium-color: var(--gold-color);
+  --support-brand-color: var(--jungle-color);
+
+  --text-primary-color: var(--black-color);
+  --text-secondary-color: var(--storm-color);
+  --text-hint-color: var(--storm-color);
+  --text-placeholder-color: var(--storm-color);
+  --text-reversed-color: var(--pure-white-color);
+  --text-alert-color: var(--red-color);
+
+  --border-heavy-color: var(--storm-color);
+  --border-subtle-color: var(--mist-color);
+  --border-selected-color: var(--grass-color);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+}
+
+body {
+  background: var(--background-secondary-color);
+}
+
+.button {
+  font-size: 16px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: var(--green-color);
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
